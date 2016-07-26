@@ -1,0 +1,45 @@
+#overdueQueue {
+  margin-top: 5%;
+}
+
+#bulkRemove, #bulkPostpone {
+  display: inline;
+}
+
+.fa-times-circle {
+  font-size: 5rem !important;
+  display: inline-block;
+  float: right;
+  margin: 5px 10px 5px 0px;
+}
+
+.postponeButton {
+  width: 48%;
+  height: 30px;
+  margin: auto 2px;
+  font-size: 12px;
+  padding: 0px;
+}
+
+.doneButton {
+  width: 48%;
+  height: 30px;
+  margin: auto 2px;
+  font-size: 12px;
+  padding: 7px;
+}
+
+.container {
+ width: 500px
+ border: 1px solid white;
+}
+
+#postponeAmt {
+  text-align: center;
+  height: 65%;
+  width: 25px;
+  padding: 0px;
+  margin: 5px;
+  position: relative;
+  left: 17px;
+}

@@ -1,0 +1,176 @@
+.fa {
+  font-size: 3rem;
+}
+
+html {
+font-family: Montserrat,"Helvetica Neue",sans-serif;
+}
+
+.ctctLabels {
+  height: 6rem;
+  width: 50%;
+  margin:0.125rem 1rem 1rem 0;
+  padding-left: : 20%;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.5);
+  min-width: 450px;
+}
+
+.altDiv {
+  /*position:absolute;*/
+  display: inline-block;
+  background-color: skyblue !important;
+  background-position: center;
+  background-size: cover;
+}
+
+.hasImg {
+  position:relative;
+}
+
+.ctctFaces {
+  height: 4rem;
+  width: 4rem;
+  object-fit: cover;
+  border-radius: 100%;
+  margin: 10px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+  line-height: 4rem;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: lighter;
+  object-fit: cover;
+}
+
+.mini-text {
+  display: inline-block;
+  width: 65%;
+  padding: 0.125rem;
+  vertical-align: top;
+  margin: 0 5% 0 0;
+}
+
+div {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ctctName {
+  display: block;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px
+  margin: 0.25rem 0 0 0;
+}
+
+.ctctPlans {
+  display: block;
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-weight: 500;
+  letter-spacing: .6px;}
+
+#overdueCtcts {
+  margin: 100px auto 0 auto;
+}
+
+#overdueCtcts > div {
+  width: 20%;
+}
+
+#overdueCtcts > .ctctLabels {
+  display: inline-block;
+  background-color: rgb(190, 220, 233);
+  min-width: 0px;
+}
+::selection{
+  background: #42dca3;
+}
+::-moz-selection{
+  background: #42dca3;
+}
+
+#doubleRight {
+  font-size: 60px !important;
+}
+
+#doubleRightDiv {
+  background-color: inherit !important;
+}
+
+.timeline {
+  margin-left: 10%;
+  border-left: 1px solid white;
+  padding-left: 2%;
+}
+
+.dateDiv {
+  position: relative;
+  right: 13.1%;
+  border-bottom: 1px dashed white;
+  margin-bottom: 1rem;
+  background-color: #E1B378;
+  padding: .3rem;
+}
+
+@media(min-width:768px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 0;
+        letter-spacing: 1px;
+        background: 0 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: rgb(147,203,220);
+    }
+}
+
+a {
+    color: rgba(27, 146, 101, .6);
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #fff;
+}
+
+#contactList {
+  margin: 100px 10% 0 10%;
+}
+
+#overdueQueue {
+  margin: 100px 10% 0 10% !important;
+}
+
+footer {
+  opacity: .3;
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+}
+
+#bigButton {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  display: none;
+  padding-top: 160px;
+  justify-content: center;
+  z-index: 1000;
+
+}
+
+#bigPlus {
+  font-size: 40rem !important;
+}
