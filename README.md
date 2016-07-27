@@ -1,4 +1,7 @@
 # 201finalProject
+
+####NOTE that this is a clone of the original project with an image added for portfolio inclusion; otherwise it is identical to the project as currently deployed.
+
 Team EEEK collaborates on the final project of Code Fellows 201 course.
 
 This project incorporates HTML, CSS, and JavaScript to create a casual CRM app for maintaining personal relationships.
